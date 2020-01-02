@@ -67,4 +67,16 @@ If <img src="https://latex.codecogs.com/gif.latex?\vec{v}" title="\vec{v}" /> an
 
 ## The Left and Right Derivatives
 
-to come
+The left derivative is defined as
+
+<img src="https://latex.codecogs.com/gif.latex?\frac{df}{dx}_-&space;=&space;\lim_{\epsilon&space;\to&space;0^-}&space;\frac{f(x&plus;\epsilon)&space;-&space;f(x)}{\epsilon}" title="\frac{df}{dx}_- = \lim_{\epsilon \to 0^-} \frac{f(x+\epsilon) - f(x)}{\epsilon}" />
+
+while the right derivative is defined similarly
+
+<img src="https://latex.codecogs.com/gif.latex?\frac{df}{dx}_&plus;&space;=&space;\lim_{\epsilon&space;\to&space;0^&plus;}&space;\frac{f(x&plus;\epsilon)&space;-&space;f(x)}{\epsilon}" title="\frac{df}{dx}_+ = \lim_{\epsilon \to 0^+} \frac{f(x+\epsilon) - f(x)}{\epsilon}" />
+
+## The Jagged Derivative
+
+The jagged derivative is defined as a vector average of the left and right derivatives.  Specifically:
+
+<img src="https://latex.codecogs.com/gif.latex?\frac{d}{d&space;\vec&space;x}&space;=&space;\frac{1}{2}&space;(&space;\frac{1}{\widehat{x_&plus;}}&space;\frac{d}{dx}_&plus;&space;-&space;\frac{1}{\widehat{x_-}}&space;\frac{d}{dx}_-)&space;=&space;\frac{1}{2}&space;(\frac{d}{d\vec{x}}_&plus;&space;-&space;\frac{d}{d&space;\vec{x}}_-)" title="\frac{d}{d \vec x} = \frac{1}{2} ( \frac{1}{\widehat{x_+}} \frac{d}{dx}_+ - \frac{1}{\widehat{x_-}} \frac{d}{dx}_-) = \frac{1}{2} (\frac{d}{d\vec{x}}_+ - \frac{d}{d \vec{x}}_-)" />
