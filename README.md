@@ -93,7 +93,7 @@ The jagged derivative is defined as one half the vector difference of the right 
 
 We double-cover space with the functions
 
-<a href="https://www.codecogs.com/eqnedit.php?latex=\vec&space;x&space;=&space;\vec&space;x_&plus;&space;&plus;&space;\vec&space;x_-" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\vec&space;x&space;=&space;\vec&space;x_&plus;&space;&plus;&space;\vec&space;x_-" title="\vec x = \vec x_+ + \vec x_-" /></a>
+<a href="https://www.codecogs.com/eqnedit.php?latex=\vec&space;x&space;=&space;\vec&space;x_&plus;&space;-&space;\vec&space;x_-" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\vec&space;x&space;=&space;\vec&space;x_&plus;&space;-&space;\vec&space;x_-" title="\vec x = \vec x_+ - \vec x_-" /></a>
 
 ## Left and Right Differentials
 
