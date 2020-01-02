@@ -1,4 +1,4 @@
-# Jagged-Calculus
+# Jagged Calculus and Cardinal Geometric Algebra
 Calculus for Jagged Functions, as well as a new vector algebra to go with it
 
 # Cardinal Geometric Algebra
@@ -61,3 +61,10 @@ Which are both linearly independent.
 If <img src="https://latex.codecogs.com/gif.latex?\vec{v}" title="\vec{v}" /> and <img src="https://latex.codecogs.com/gif.latex?\vec{w}" title="\vec{w}" /> are two vectors of the cardinal geometric algebra, then their dot product is given by the scalar (grade-0) part of their product
 
 <img src="https://latex.codecogs.com/gif.latex?\vec{v}&space;\cdot&space;\vec{w}&space;=&space;\langle&space;\vec{v}&space;\vec{w}&space;\rangle_0&space;=&space;\langle&space;\vec{w}&space;\vec{v}&space;\rangle_0" title="\vec{v} \cdot \vec{w} = \langle \vec{v} \vec{w} \rangle_0 = \langle \vec{w} \vec{v} \rangle_0" />
+
+
+# Jagged Calculus
+
+## The Left and Right Derivatives
+
+to come
