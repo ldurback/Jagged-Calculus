@@ -63,7 +63,7 @@ If <img src="https://latex.codecogs.com/gif.latex?\vec{v}" title="\vec{v}" /> an
 <img src="https://latex.codecogs.com/gif.latex?\vec{v}&space;\cdot&space;\vec{w}&space;=&space;\langle&space;\vec{v}&space;\vec{w}&space;\rangle_0&space;=&space;\langle&space;\vec{w}&space;\vec{v}&space;\rangle_0" title="\vec{v} \cdot \vec{w} = \langle \vec{v} \vec{w} \rangle_0 = \langle \vec{w} \vec{v} \rangle_0" />
 
 
-# Jagged Calculus
+# Jagged Calculus in 1 Dimension
 
 ## The Left and Right Derivatives
 
@@ -81,14 +81,28 @@ The jagged derivative is defined as a vector average of the left and right deriv
 
 <img src="https://latex.codecogs.com/gif.latex?\frac{d}{d&space;\vec&space;x}&space;=&space;\frac{1}{2}&space;(&space;\frac{1}{\widehat{x_&plus;}}&space;\frac{d}{dx}_&plus;&space;-&space;\frac{1}{\widehat{x_-}}&space;\frac{d}{dx}_-)&space;=&space;\frac{1}{2}&space;(\frac{d}{d\vec{x}}_&plus;&space;-&space;\frac{d}{d&space;\vec{x}}_-)" title="\frac{d}{d \vec x} = \frac{1}{2} ( \frac{1}{\widehat{x_+}} \frac{d}{dx}_+ - \frac{1}{\widehat{x_-}} \frac{d}{dx}_-) = \frac{1}{2} (\frac{d}{d\vec{x}}_+ - \frac{d}{d \vec{x}}_-)" />
 
-## Left and Right Differentials
+## The Double Cover of Space
 
-To come
+We double-cover space with the functions
+
+<img src="https://latex.codecogs.com/gif.latex?\vec&space;x&space;=&space;\vec&space;x_&plus;&space;-&space;\vec&space;x_-" title="\vec x = \vec x_+ - \vec x_-" />
+
+## Left and Right Differentials and Vector-Differentials
+
+The left differential of a function f is defined as <img src="https://latex.codecogs.com/gif.latex?d_-&space;f&space;=&space;\frac{df}{dx}_-&space;dx_-" title="d_- f = \frac{df}{dx}_- dx_-" />
+
+The left vector-differential of a function f is defined as 
+
+The right differential of a function f is defined as <a href="https://www.codecogs.com/eqnedit.php?latex=d_&plus;&space;f&space;=&space;\frac{df}{dx}_&plus;&space;dx_&plus;" target="_blank"><img src="https://latex.codecogs.com/gif.latex?d_&plus;&space;f&space;=&space;\frac{df}{dx}_&plus;&space;dx_&plus;" title="d_+ f = \frac{df}{dx}_+ dx_+" /></a>
 
 ## The Jagged Differential
 
-The jagged differential is defined as an average of the left and right differentials
+The jagged differential is defined as the sum of the left and right differentials
 
-<img src="https://latex.codecogs.com/gif.latex?\vec&space;{d}&space;f&space;=&space;\frac{1}{2}&space;(&space;\frac{df}{dx}_&plus;&space;\overrightarrow{dx_&plus;}&space;-&space;\frac{df}{dx}_-&space;\overrightarrow{dx_-})" title="\vec {d} f = \frac{1}{2} ( \frac{df}{dx}_+ \overrightarrow{dx_+} - \frac{df}{dx}_- \overrightarrow{dx_-})" />
+<a href="https://www.codecogs.com/eqnedit.php?latex=d&space;=&space;d_&plus;&space;&plus;&space;d_-" target="_blank"><img src="https://latex.codecogs.com/gif.latex?d&space;=&space;d_&plus;&space;&plus;&space;d_-" title="d = d_+ + d_-" /></a>
+
+
 
 ## Integrals
+
+Since 
