@@ -23,3 +23,13 @@ For instance, for 3+1D Minkowski space-time:
 <img src="https://latex.codecogs.com/gif.latex?\widehat{x_&plus;}^2=\widehat{x_-}^2=\widehat{y_&plus;}^2=\widehat{y_-}^2=\widehat{z_&plus;}^2=\widehat{z_-}^2=1" title="\widehat{x_+}^2=\widehat{x_-}^2=\widehat{y_+}^2=\widehat{y_-}^2=\widehat{z_+}^2=\widehat{z_-}^2=1" />
 
 <img src="https://latex.codecogs.com/gif.latex?\widehat{t_&plus;}^2=\widehat{t_-}^2=-1" title="\widehat{t_+}^2=\widehat{t_-}^2=-1" />
+
+### Multiplying a Cardinal Unit Basis Vector by its Opposite
+
+For any cardinal unit basis vector, multiplying it by its opposite yields the negative of its signature, which is either -1 or +1.  Any vector commutes with its opposite.
+
+For instance, in 3+1D Minkowski space-time, we have
+
+<img src="https://latex.codecogs.com/gif.latex?\widehat{x_&plus;}&space;\widehat{x_-}&space;=&space;\widehat{x_-}&space;\widehat{x_&plus;}&space;=&space;-1" title="\widehat{x_+} \widehat{x_-} = \widehat{x_-} \widehat{x_+} = -1" />
+
+<img src="https://latex.codecogs.com/gif.latex?\widehat{t_&plus;}&space;\widehat{t_-}&space;=&space;\widehat{t_-}&space;\widehat{t_&plus;}&space;=&space;1" title="\widehat{t_+} \widehat{t_-} = \widehat{t_-} \widehat{t_+} = 1" />
