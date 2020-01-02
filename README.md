@@ -87,11 +87,9 @@ We double-cover space with the functions
 
 <img src="https://latex.codecogs.com/gif.latex?\vec&space;x&space;=&space;\vec&space;x_&plus;&space;-&space;\vec&space;x_-" title="\vec x = \vec x_+ - \vec x_-" />
 
-## Left and Right Differentials and Vector-Differentials
+## Left and Right Differentials
 
 The left differential of a function f is defined as <img src="https://latex.codecogs.com/gif.latex?d_-&space;f&space;=&space;\frac{df}{dx}_-&space;dx_-" title="d_- f = \frac{df}{dx}_- dx_-" />
-
-The left vector-differential of a function f is defined as 
 
 The right differential of a function f is defined as <a href="https://www.codecogs.com/eqnedit.php?latex=d_&plus;&space;f&space;=&space;\frac{df}{dx}_&plus;&space;dx_&plus;" target="_blank"><img src="https://latex.codecogs.com/gif.latex?d_&plus;&space;f&space;=&space;\frac{df}{dx}_&plus;&space;dx_&plus;" title="d_+ f = \frac{df}{dx}_+ dx_+" /></a>
 
