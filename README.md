@@ -89,12 +89,6 @@ The jagged derivative is defined as one half the vector difference of the right 
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=\frac{d&space;x^2}{d&space;\vec&space;x}&space;=&space;\frac{1}{2}&space;(&space;\frac{1}{\widehat{x_&plus;}}&space;\frac{d&space;x^2}{dx_&plus;}&space;-&space;\frac{1}{\widehat{x_-}}&space;\frac{d&space;x^2}{dx_-})&space;=&space;\frac{1}{2}&space;(\widehat{x_&plus;}&space;2x&space;-&space;\widehat{x_-}&space;2x)&space;=&space;2&space;\vec&space;x" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\frac{d&space;x^2}{d&space;\vec&space;x}&space;=&space;\frac{1}{2}&space;(&space;\frac{1}{\widehat{x_&plus;}}&space;\frac{d&space;x^2}{dx_&plus;}&space;-&space;\frac{1}{\widehat{x_-}}&space;\frac{d&space;x^2}{dx_-})&space;=&space;\frac{1}{2}&space;(\widehat{x_&plus;}&space;2x&space;-&space;\widehat{x_-}&space;2x)&space;=&space;2&space;\vec&space;x" title="\frac{d x^2}{d \vec x} = \frac{1}{2} ( \frac{1}{\widehat{x_+}} \frac{d x^2}{dx_+} - \frac{1}{\widehat{x_-}} \frac{d x^2}{dx_-}) = \frac{1}{2} (\widehat{x_+} 2x - \widehat{x_-} 2x) = 2 \vec x" /></a>
 
-## The Double Cover of Space
-
-We double-cover space with the functions
-
-<a href="https://www.codecogs.com/eqnedit.php?latex=\vec&space;x&space;=&space;\vec&space;x_&plus;&space;-&space;\vec&space;x_-" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\vec&space;x&space;=&space;\vec&space;x_&plus;&space;-&space;\vec&space;x_-" title="\vec x = \vec x_+ - \vec x_-" /></a>
-
 ## Left and Right Differentials
 
 The left differential of a function f is defined as <a href="https://www.codecogs.com/eqnedit.php?latex=d_-&space;f&space;=&space;\frac{df}{dx}_-&space;dx_-&space;=&space;\frac{df}{dx}_-&space;\frac{\widehat{x_-}}{\widehat{x_-}}&space;dx_-&space;=&space;\frac{df}{d&space;\vec{x}_-}&space;d&space;\vec{x}_-" target="_blank"><img src="https://latex.codecogs.com/gif.latex?d_-&space;f&space;=&space;\frac{df}{dx}_-&space;dx_-&space;=&space;\frac{df}{dx}_-&space;\frac{\widehat{x_-}}{\widehat{x_-}}&space;dx_-&space;=&space;\frac{df}{d&space;\vec{x}_-}&space;d&space;\vec{x}_-" title="d_- f = \frac{df}{dx}_- dx_- = \frac{df}{dx}_- \frac{\widehat{x_-}}{\widehat{x_-}} dx_- = \frac{df}{d \vec{x}_-} d \vec{x}_-" /></a>
@@ -115,12 +109,24 @@ The jagged differential is defined as the sum of the right and left differential
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=d&space;x^2&space;=&space;d_&plus;&space;x^2&space;&plus;&space;d_-&space;x^2=&space;\frac{d&space;x^2}{dx_&plus;}&space;dx_&plus;&space;&plus;&space;\frac{d&space;x^2}{dx_-}&space;dx_-&space;=&space;2x&space;d&space;x_&plus;&space;&plus;&space;2x&space;d&space;x_-&space;=&space;2x&space;dx" target="_blank"><img src="https://latex.codecogs.com/gif.latex?d&space;x^2&space;=&space;d_&plus;&space;x^2&space;&plus;&space;d_-&space;x^2=&space;\frac{d&space;x^2}{dx_&plus;}&space;dx_&plus;&space;&plus;&space;\frac{d&space;x^2}{dx_-}&space;dx_-&space;=&space;2x&space;d&space;x_&plus;&space;&plus;&space;2x&space;d&space;x_-&space;=&space;2x&space;dx" title="d x^2 = d_+ x^2 + d_- x^2= \frac{d x^2}{dx_+} dx_+ + \frac{d x^2}{dx_-} dx_- = 2x d x_+ + 2x d x_- = 2x dx" /></a>
 
+## The Double Cover of Space
+
+We double-cover space with the functions
+
+<a href="https://www.codecogs.com/eqnedit.php?latex=\vec&space;x&space;=&space;\vec&space;x_&plus;&space;-&space;\vec&space;x_-" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\vec&space;x&space;=&space;\vec&space;x_&plus;&space;-&space;\vec&space;x_-" title="\vec x = \vec x_+ - \vec x_-" /></a>
+
+<a href="https://www.codecogs.com/eqnedit.php?latex=x&space;=&space;x_&plus;&space;&plus;&space;x_-" target="_blank"><img src="https://latex.codecogs.com/gif.latex?x&space;=&space;x_&plus;&space;&plus;&space;x_-" title="x = x_+ + x_-" /></a>
+
 ## Indefinite Integrals
 
-Since we have our double cover of space, we can perform indefinite integrals directly as functions of the double-cover.  Sometimes, the resulting functions will also be functions of the single-cover.
+Since we have our double cover of space, we can perform indefinite integrals directly as functions of the double-cover.  Sometimes, the resulting functions will also be functions of the single-cover.  Note:  When taking an integral, treat x+ and x- as related variables.
 
 ### Examples
+
+<a href="https://www.codecogs.com/eqnedit.php?latex=\int&space;x_-&space;dx_&plus;&space;=&space;\frac{1}{2}&space;x_-&space;x_&plus;" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\int&space;x_-&space;dx_&plus;&space;=&space;\frac{1}{2}&space;x_-&space;x_&plus;" title="\int x_- dx_+ = \frac{1}{2} x_- x_+" /></a>
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=\int&space;dx_&plus;&space;&plus;&space;dx_-&space;=&space;x_&plus;&space;&plus;&space;x_-&space;=&space;x" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\int&space;dx_&plus;&space;&plus;&space;dx_-&space;=&space;x_&plus;&space;&plus;&space;x_-&space;=&space;x" title="\int dx_+ + dx_- = x_+ + x_- = x" /></a>
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=\int&space;d&space;\vec&space;x_&plus;&space;-&space;d&space;\vec&space;x_-&space;=&space;\vec&space;x_&plus;&space;-&space;\vec&space;x_-&space;=&space;\vec&space;x" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\int&space;d&space;\vec&space;x_&plus;&space;-&space;d&space;\vec&space;x_-&space;=&space;\vec&space;x_&plus;&space;-&space;\vec&space;x_-&space;=&space;\vec&space;x" title="\int d \vec x_+ - d \vec x_- = \vec x_+ - \vec x_- = \vec x" /></a>
+
+<a href="https://www.codecogs.com/eqnedit.php?latex=\int&space;2x&space;dx&space;=&space;\int&space;2&space;(x_&plus;&space;&plus;&space;x_-)&space;(d&space;x_&plus;&space;&plus;&space;d&space;x_-)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\int&space;2x&space;dx&space;=&space;\int&space;2&space;(x_&plus;&space;&plus;&space;x_-)&space;(d&space;x_&plus;&space;&plus;&space;d&space;x_-)" title="\int 2x dx = \int 2 (x_+ + x_-) (d x_+ + d x_-)" /></a> = <a href="https://www.codecogs.com/eqnedit.php?latex=\int&space;2&space;(x_&plus;&space;&plus;&space;x_-)&space;d&space;x_&plus;&space;&plus;&space;2&space;(x_&plus;&space;&plus;&space;x_-)&space;d&space;x_-&space;=&space;x_&plus;^2&space;&plus;&space;2&space;x_&plus;&space;x_-&space;&plus;&space;x_-^2&space;=&space;(x_&plus;&space;&plus;&space;x_-)^2&space;=&space;x^2" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\int&space;2&space;(x_&plus;&space;&plus;&space;x_-)&space;d&space;x_&plus;&space;&plus;&space;2&space;(x_&plus;&space;&plus;&space;x_-)&space;d&space;x_-&space;=&space;x_&plus;^2&space;&plus;&space;2&space;x_&plus;&space;x_-&space;&plus;&space;x_-^2&space;=&space;(x_&plus;&space;&plus;&space;x_-)^2&space;=&space;x^2" title="\int 2 (x_+ + x_-) d x_+ + 2 (x_+ + x_-) d x_- = x_+^2 + 2 x_+ x_- + x_-^2 = (x_+ + x_-)^2 = x^2" /></a>
