@@ -80,3 +80,15 @@ while the right derivative is defined similarly
 The jagged derivative is defined as a vector average of the left and right derivatives.  Specifically:
 
 <img src="https://latex.codecogs.com/gif.latex?\frac{d}{d&space;\vec&space;x}&space;=&space;\frac{1}{2}&space;(&space;\frac{1}{\widehat{x_&plus;}}&space;\frac{d}{dx}_&plus;&space;-&space;\frac{1}{\widehat{x_-}}&space;\frac{d}{dx}_-)&space;=&space;\frac{1}{2}&space;(\frac{d}{d\vec{x}}_&plus;&space;-&space;\frac{d}{d&space;\vec{x}}_-)" title="\frac{d}{d \vec x} = \frac{1}{2} ( \frac{1}{\widehat{x_+}} \frac{d}{dx}_+ - \frac{1}{\widehat{x_-}} \frac{d}{dx}_-) = \frac{1}{2} (\frac{d}{d\vec{x}}_+ - \frac{d}{d \vec{x}}_-)" />
+
+## Left and Right Differentials
+
+To come
+
+## The Jagged Differential
+
+The jagged differential is defined as an average of the left and right differentials
+
+<img src="https://latex.codecogs.com/gif.latex?\vec&space;{d}&space;f&space;=&space;\frac{1}{2}&space;(&space;\frac{df}{dx}_&plus;&space;\overrightarrow{dx_&plus;}&space;-&space;\frac{df}{dx}_-&space;\overrightarrow{dx_-})" title="\vec {d} f = \frac{1}{2} ( \frac{df}{dx}_+ \overrightarrow{dx_+} - \frac{df}{dx}_- \overrightarrow{dx_-})" />
+
+## Integrals
