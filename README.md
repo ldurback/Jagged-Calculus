@@ -121,4 +121,6 @@ Since we have our double cover of space, we can perform indefinite integrals dir
 
 ### Examples
 
+<a href="https://www.codecogs.com/eqnedit.php?latex=\int&space;dx_&plus;&space;&plus;&space;dx_-&space;=&space;x_&plus;&space;&plus;&space;x_-&space;=&space;x" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\int&space;dx_&plus;&space;&plus;&space;dx_-&space;=&space;x_&plus;&space;&plus;&space;x_-&space;=&space;x" title="\int dx_+ + dx_- = x_+ + x_- = x" /></a>
 
+<a href="https://www.codecogs.com/eqnedit.php?latex=\int&space;d&space;\vec&space;x_&plus;&space;-&space;d&space;\vec&space;x_-&space;=&space;\vec&space;x_&plus;&space;-&space;\vec&space;x_-&space;=&space;\vec&space;x" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\int&space;d&space;\vec&space;x_&plus;&space;-&space;d&space;\vec&space;x_-&space;=&space;\vec&space;x_&plus;&space;-&space;\vec&space;x_-&space;=&space;\vec&space;x" title="\int d \vec x_+ - d \vec x_- = \vec x_+ - \vec x_- = \vec x" /></a>
