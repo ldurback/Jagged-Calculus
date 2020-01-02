@@ -79,28 +79,37 @@ while the right derivative is defined similarly
 
 The jagged derivative is defined as a vector average of the left and right derivatives.  Specifically:
 
-<img src="https://latex.codecogs.com/gif.latex?\frac{d}{d&space;\vec&space;x}&space;=&space;\frac{1}{2}&space;(&space;\frac{1}{\widehat{x_&plus;}}&space;\frac{d}{dx}_&plus;&space;-&space;\frac{1}{\widehat{x_-}}&space;\frac{d}{dx}_-)&space;=&space;\frac{1}{2}&space;(\frac{d}{d\vec{x}}_&plus;&space;-&space;\frac{d}{d&space;\vec{x}}_-)" title="\frac{d}{d \vec x} = \frac{1}{2} ( \frac{1}{\widehat{x_+}} \frac{d}{dx}_+ - \frac{1}{\widehat{x_-}} \frac{d}{dx}_-) = \frac{1}{2} (\frac{d}{d\vec{x}}_+ - \frac{d}{d \vec{x}}_-)" />
+<a href="https://www.codecogs.com/eqnedit.php?latex=\frac{d}{d&space;\vec&space;x}&space;=&space;\frac{1}{2}&space;(&space;\frac{1}{\widehat{x_&plus;}}&space;\frac{d}{dx}_&plus;&space;&plus;&space;\frac{1}{\widehat{x_-}}&space;\frac{d}{dx}_-)&space;=&space;\frac{1}{2}&space;(\frac{d}{d\vec{x}}_&plus;&space;&plus;&space;\frac{d}{d&space;\vec{x}}_-)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\frac{d}{d&space;\vec&space;x}&space;=&space;\frac{1}{2}&space;(&space;\frac{1}{\widehat{x_&plus;}}&space;\frac{d}{dx}_&plus;&space;&plus;&space;\frac{1}{\widehat{x_-}}&space;\frac{d}{dx}_-)&space;=&space;\frac{1}{2}&space;(\frac{d}{d\vec{x}}_&plus;&space;&plus;&space;\frac{d}{d&space;\vec{x}}_-)" title="\frac{d}{d \vec x} = \frac{1}{2} ( \frac{1}{\widehat{x_+}} \frac{d}{dx}_+ + \frac{1}{\widehat{x_-}} \frac{d}{dx}_-) = \frac{1}{2} (\frac{d}{d\vec{x}}_+ + \frac{d}{d \vec{x}}_-)" /></a>
+
+### Examples
 
 ## The Double Cover of Space
 
 We double-cover space with the functions
 
-<img src="https://latex.codecogs.com/gif.latex?\vec&space;x&space;=&space;\vec&space;x_&plus;&space;-&space;\vec&space;x_-" title="\vec x = \vec x_+ - \vec x_-" />
+<a href="https://www.codecogs.com/eqnedit.php?latex=\vec&space;x&space;=&space;\vec&space;x_&plus;&space;&plus;&space;\vec&space;x_-" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\vec&space;x&space;=&space;\vec&space;x_&plus;&space;&plus;&space;\vec&space;x_-" title="\vec x = \vec x_+ + \vec x_-" /></a>
 
 ## Left and Right Differentials
 
-The left differential of a function f is defined as <img src="https://latex.codecogs.com/gif.latex?d_-&space;f&space;=&space;\frac{df}{dx}_-&space;dx_-" title="d_- f = \frac{df}{dx}_- dx_-" />
+The left differential of a function f is defined as <a href="https://www.codecogs.com/eqnedit.php?latex=d_-&space;f&space;=&space;\frac{df}{dx}_-&space;dx_-&space;=&space;\frac{df}{dx}_-&space;\frac{\widehat{x_-}}{\widehat{x_-}}&space;dx_-&space;=&space;\frac{df}{d&space;\vec{x}_-}&space;d&space;\vec{x}_-" target="_blank"><img src="https://latex.codecogs.com/gif.latex?d_-&space;f&space;=&space;\frac{df}{dx}_-&space;dx_-&space;=&space;\frac{df}{dx}_-&space;\frac{\widehat{x_-}}{\widehat{x_-}}&space;dx_-&space;=&space;\frac{df}{d&space;\vec{x}_-}&space;d&space;\vec{x}_-" title="d_- f = \frac{df}{dx}_- dx_- = \frac{df}{dx}_- \frac{\widehat{x_-}}{\widehat{x_-}} dx_- = \frac{df}{d \vec{x}_-} d \vec{x}_-" /></a>
 
-The right differential of a function f is defined as <a href="https://www.codecogs.com/eqnedit.php?latex=d_&plus;&space;f&space;=&space;\frac{df}{dx}_&plus;&space;dx_&plus;" target="_blank"><img src="https://latex.codecogs.com/gif.latex?d_&plus;&space;f&space;=&space;\frac{df}{dx}_&plus;&space;dx_&plus;" title="d_+ f = \frac{df}{dx}_+ dx_+" /></a>
+The right differential of a function f is defined as <a href="https://www.codecogs.com/eqnedit.php?latex=d_&plus;&space;f&space;=&space;\frac{df}{dx}_&plus;&space;dx_&plus;&space;=&space;\frac{df}{dx}_&plus;&space;\frac{\widehat{x_&plus;}}{\widehat{x_&plus;}}&space;dx_&plus;&space;=&space;\frac{df}{d&space;\vec{x}_&plus;}&space;d&space;\vec{x}_&plus;" target="_blank"><img src="https://latex.codecogs.com/gif.latex?d_&plus;&space;f&space;=&space;\frac{df}{dx}_&plus;&space;dx_&plus;&space;=&space;\frac{df}{dx}_&plus;&space;\frac{\widehat{x_&plus;}}{\widehat{x_&plus;}}&space;dx_&plus;&space;=&space;\frac{df}{d&space;\vec{x}_&plus;}&space;d&space;\vec{x}_&plus;" title="d_+ f = \frac{df}{dx}_+ dx_+ = \frac{df}{dx}_+ \frac{\widehat{x_+}}{\widehat{x_+}} dx_+ = \frac{df}{d \vec{x}_+} d \vec{x}_+" /></a>
 
 ## The Jagged Differential
 
-The jagged differential is defined as the sum of the left and right differentials
+The jagged differential is defined as the sum of the right and left differentials
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=d&space;=&space;d_&plus;&space;&plus;&space;d_-" target="_blank"><img src="https://latex.codecogs.com/gif.latex?d&space;=&space;d_&plus;&space;&plus;&space;d_-" title="d = d_+ + d_-" /></a>
 
+### Examples
 
 
-## Integrals
 
-Since 
+
+## Indefinite Integrals
+
+Since we have our double cover of space, we can perform indefinite integrals directly as functions of the double-cover.  Sometimes, the resulting functions will also be functions of the single-cover.
+
+### Examples
+
+
