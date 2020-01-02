@@ -12,6 +12,15 @@ I will call the carndinal basis vectors which point in opposite directions "oppo
 
 For instance, <img src="https://latex.codecogs.com/gif.latex?\widehat{x_&plus;}" title="\widehat{x_+}" /> and <img src="https://latex.codecogs.com/gif.latex?\widehat{x_-}" title="\widehat{x_-}" /> are opposites, while <img src="https://latex.codecogs.com/gif.latex?\widehat{x_&plus;}" title="\widehat{x_+}" /> and <img src="https://latex.codecogs.com/gif.latex?-\widehat{x_&plus;}" title="-\widehat{x_+}" /> are negatives.
 
+## Axis Vectors
+
+The axis vectors are given by averaging together a positively oriented cardinal basis unit vector with the negative of its opposite.
+
+For instance:
+
+<img src="https://latex.codecogs.com/gif.latex?\hat{x}&space;=&space;\frac{1}{2}&space;(\widehat{x_&plus;}&space;-&space;\widehat{x_-})" title="\hat{x} = \frac{1}{2} (\widehat{x_+} - \widehat{x_-})" />
+
+
 ## Multiplication Rules for the Cardinal Basis
 
 ### Squaring a Cardinal Unit Basis Vector
