@@ -111,11 +111,11 @@ The jagged differential is defined as the sum of the right and left differential
 
 ## Definite Integrals
 
-A definite integral <a href="https://www.codecogs.com/eqnedit.php?latex=\int_a^b&space;f(x)&space;dx_&plus;" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\int_a^b&space;f(x)&space;dx_&plus;" title="\int_a^b f(x) dx_+" /></a> can be simply defined as a Riemann sum over the path x = a -> x = b with the x axis oriented positively.
+A definite integral <a href="https://www.codecogs.com/eqnedit.php?latex=\int_a^b&space;f(x)&space;dx_&plus;" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\int_a^b&space;f(x)&space;dx_&plus;" title="\int_a^b f(x) dx_+" /></a>, if a > b, is simply 0, while if a < b, is simply a usual 1D integral.
 
-Likewise, a definite integral <a href="https://www.codecogs.com/eqnedit.php?latex=\int_a^b&space;f(x)&space;dx_-" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\int_a^b&space;f(x)&space;dx_-" title="\int_a^b f(x) dx_-" /></a> can be simply defined as a Riemann sum over the path x = a -> x = b with the x axis oriented negatively.
+Likewise, a definite integral <a href="https://www.codecogs.com/eqnedit.php?latex=\int_a^b&space;f(x)&space;dx_-" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\int_a^b&space;f(x)&space;dx_-" title="\int_a^b f(x) dx_-" /></a>, if a < b, is simply 0, while if a > b, is simply a usual 1D integral.
 
-Therefore, we have <a href="https://www.codecogs.com/eqnedit.php?latex=\int_a^b&space;f(x)&space;dx_&plus;&space;=&space;-&space;\int_a^b&space;f(x)&space;dx_-" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\int_a^b&space;f(x)&space;dx_&plus;&space;=&space;-&space;\int_a^b&space;f(x)&space;dx_-" title="\int_a^b f(x) dx_+ = - \int_a^b f(x) dx_-" /></a>
+Therefore, we have <a href="https://www.codecogs.com/eqnedit.php?latex=\int_a^b&space;f(x)&space;dx_&plus;&space;&plus;&space;\int_a^b&space;f(x)&space;dx_-&space;=&space;\int_a^b&space;f(x)&space;dx" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\int_a^b&space;f(x)&space;dx_&plus;&space;&plus;&space;\int_a^b&space;f(x)&space;dx_-&space;=&space;\int_a^b&space;f(x)&space;dx" title="\int_a^b f(x) dx_+ + \int_a^b f(x) dx_- = \int_a^b f(x) dx" /></a>
 
 ---
 
