@@ -119,7 +119,7 @@ Therefore, we have <a href="https://www.codecogs.com/eqnedit.php?latex=\int_a^b&
 
 ---
 
-# Ad Hoc Bullshit
+# Ad Hoc Bullshit (aka Work in Progress)
 
 ---
 
