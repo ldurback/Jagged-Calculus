@@ -109,6 +109,12 @@ The jagged differential is defined as the sum of the right and left differential
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=d&space;x^2&space;=&space;d_&plus;&space;x^2&space;&plus;&space;d_-&space;x^2=&space;\frac{d&space;x^2}{dx_&plus;}&space;dx_&plus;&space;&plus;&space;\frac{d&space;x^2}{dx_-}&space;dx_-&space;=&space;2x&space;d&space;x_&plus;&space;&plus;&space;2x&space;d&space;x_-&space;=&space;2x&space;dx" target="_blank"><img src="https://latex.codecogs.com/gif.latex?d&space;x^2&space;=&space;d_&plus;&space;x^2&space;&plus;&space;d_-&space;x^2=&space;\frac{d&space;x^2}{dx_&plus;}&space;dx_&plus;&space;&plus;&space;\frac{d&space;x^2}{dx_-}&space;dx_-&space;=&space;2x&space;d&space;x_&plus;&space;&plus;&space;2x&space;d&space;x_-&space;=&space;2x&space;dx" title="d x^2 = d_+ x^2 + d_- x^2= \frac{d x^2}{dx_+} dx_+ + \frac{d x^2}{dx_-} dx_- = 2x d x_+ + 2x d x_- = 2x dx" /></a>
 
+## Definite Integrals
+
+Consider a path C defined by n points (where n >= 2) and the connecting segments between them.
+
+For instance C = p_1 -> p_2 -> ... -> p_n
+
 ---
 
 # Ad Hoc Bullshit
