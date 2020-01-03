@@ -111,9 +111,11 @@ The jagged differential is defined as the sum of the right and left differential
 
 ## Definite Integrals
 
-Consider a path C defined by n points (where n >= 2) and the connecting segments between them.
+A definite integral <a href="https://www.codecogs.com/eqnedit.php?latex=\int_a^b&space;f(x)&space;dx_&plus;" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\int_a^b&space;f(x)&space;dx_&plus;" title="\int_a^b f(x) dx_+" /></a> can be simply defined as a Riemann sum over the path x = a -> x = b with the x axis oriented positively.
 
-For instance C = p_1 -> p_2 -> ... -> p_n
+Likewise, a definite integral <a href="https://www.codecogs.com/eqnedit.php?latex=\int_a^b&space;f(x)&space;dx_-" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\int_a^b&space;f(x)&space;dx_-" title="\int_a^b f(x) dx_-" /></a> can be simply defined as a Riemann sum over the path x = a -> x = b with the x axis oriented negatively.
+
+Therefore, we have <a href="https://www.codecogs.com/eqnedit.php?latex=\int_a^b&space;f(x)&space;dx_&plus;&space;=&space;-&space;\int_a^b&space;f(x)&space;dx_-" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\int_a^b&space;f(x)&space;dx_&plus;&space;=&space;-&space;\int_a^b&space;f(x)&space;dx_-" title="\int_a^b f(x) dx_+ = - \int_a^b f(x) dx_-" /></a>
 
 ---
 
